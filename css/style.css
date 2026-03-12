@@ -80,5 +80,6 @@
 @media screen and (min-width:992px) {
     .wrapper {
         display: flex;
+        max-width: 1200px;
     }
 }

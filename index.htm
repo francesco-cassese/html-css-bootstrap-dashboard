@@ -27,7 +27,7 @@
         <!--
             NAVBAR
         -->
-        <nav class="navbar navbar-expand-lg bg-dark">
+        <nav class="navbar navbar-expand-lg bg-dark mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./img/duck.png" alt="Icona papera" width="40" height="40">
@@ -66,13 +66,13 @@
         <!--
             LIBRI DISPONIBILI
         -->
-        <section class="library-table">
-            <header class="d-flex justify-content-between align-items-center m-3">
+        <section class="library-table container col-12 col-md- 10 col-lg-9">
+            <header class="d-flex justify-content-between align-items-center">
                 <h3>Catalogo libri</h3>
                 <button type="button" class="btn btn-primary">Aggiungi libro</button>
             </header>
             <div class="table-responsive">
-                <table class="table table-striped table-hover text-nowrap">
+                <table class="table table-striped table-hover mt-3">
                     <thead class="table-default">
                         <tr>
                             <th scope="col" class="title-column">Titolo</th>
@@ -87,7 +87,7 @@
                             <td class="status-column d-none d-md-table-cell">-</td>
                             <td class="fw-bold status-avaiable">Disponibile</td>
                             <td>
-                                <div class="btn-table-contain">
+                                <div class="btn-table-contain text-nowrap">
                                     <button type="button" class="btn btn-outline-secondary">
                                         <i class="bi bi-pencil-fill"></i>
                                     </button>
@@ -266,7 +266,42 @@
                     </tbody>
                 </table>
             </div>
-
+        </section>
+        <!--
+            CARD TODO
+        -->
+        <section class="card-to-do container mt-3">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="fw-bold">Todo</h4>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label" for="checkDefault">
+                                <span>Chiamare segreteria</span>
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label" for="checkDefault">
+                                <span>mandare avvisi prestitiscaduti</span>
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label" for="checkDefault">
+                                <span>Ordinare nuovi libri</span>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

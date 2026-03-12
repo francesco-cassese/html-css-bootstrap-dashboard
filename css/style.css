@@ -1,0 +1,26 @@
+.status-available,
+.status-on-loan,
+.status-sold-out {
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.status-available {
+    background-color: green;
+}
+
+.status-on-loan {
+    background-color: orange;
+}
+
+.status-sold-out {
+    background-color: red;
+    white-space: nowrap;
+}
+
+.table-responsive td {
+    vertical-align: middle;
+}

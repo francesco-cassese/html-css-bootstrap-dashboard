@@ -24,3 +24,9 @@
 .table-responsive td {
     vertical-align: middle;
 }
+
+@media screen and (min-width:992px) {
+    .wrapper {
+        display: flex;
+    }
+}

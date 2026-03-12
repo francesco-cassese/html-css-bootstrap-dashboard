@@ -1,3 +1,9 @@
+/*
+    ====================================
+    NAVBAR
+    ====================================
+*/
+
 .navbar {
     font-weight: bold;
 }
@@ -37,6 +43,12 @@
 .navbar-nav .nav-link.show {
     --bs-navbar-active-color: #fff;
 }
+
+/*
+    =======================================
+    LISTA LIBRI
+    =======================================
+*/
 
 .status-available,
 .status-on-loan,

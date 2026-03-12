@@ -19,7 +19,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./img/duck.png" alt="Icona papera" width="40" height="40">
@@ -29,8 +29,8 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
+                    <ul class="navbar-nav text-nowrap">
+                        <li class="nav-item ">
                             <a class="nav-link active" aria-current="page" href="#">Catalogo libri</a>
                         </li>
                         <li class="nav-item">
@@ -43,6 +43,13 @@
                             <a class="nav-link" href="#">Help</a>
                         </li>
                     </ul>
+                    <div class="container-fluid">
+                        <form class="d-flex justify-content-end " role="search">
+                            <input class="form-control me-2 w-25" type="search" placeholder="Cerca"
+                                aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Cerca</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </nav>

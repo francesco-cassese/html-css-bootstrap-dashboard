@@ -107,6 +107,12 @@
     border-color: #dee2e6;
 }
 
+/*
+    ===============================
+    MEDIA QUERY
+    ===============================
+*/
+
 @media screen and (min-width:992px) {
     .wrapper {
         display: flex;

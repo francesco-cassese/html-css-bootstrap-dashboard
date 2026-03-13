@@ -127,11 +127,10 @@
     ===============================
 */
 
-.separation {
-    margin: 0 auto;
+.separator {
     max-width: 95%;
+    margin: 0 auto;
 }
-
 
 .notes-txt-area {
     min-height: 100px !important;
@@ -177,5 +176,9 @@
     .wrapper {
         display: flex;
         max-width: 1200px;
+    }
+
+    .separator {
+        max-width: 98%;
     }
 }

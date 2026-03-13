@@ -133,6 +133,22 @@
 
 /*
     ===============================
+    EFFETTI PAGINA NEW BOOK
+    ===============================
+*/
+
+.form-control input {
+    transition: border 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #333;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/*
+    ===============================
     MEDIA QUERY
     ===============================
 */

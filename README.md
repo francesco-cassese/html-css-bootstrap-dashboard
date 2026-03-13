@@ -8,4 +8,15 @@ Questo progetto consiste nella replica del layout responsive di una **Dashboard*
 * **CSS3**: Stili custom per sovrascrivere o integrare il framework.
 * **Bootstrap 5**: Utilizzo del sistema a griglia, utility classes e componenti.
 
-> *Esercizio Boolean - Corso Full Stack Web Developer*
+### 📂 Struttura del Progetto
+```text
+htmlcss-bootstrap-dashboard/
+├── css/
+│   └── style.css       # Personalizzazioni e override di Bootstrap
+├── img/                # Asset grafici (es. loghi, avatar)
+├── index.html          # Dashboard principale (visualizzazione dati)
+├── new-book.html       # Pagina form per l'aggiunta di nuovi elementi
+└── README.md           # Documentazione
+```
+
+*Esercizio Boolean - Corso Full Stack Web Developer*

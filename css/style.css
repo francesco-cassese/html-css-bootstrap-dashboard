@@ -44,6 +44,10 @@
     --bs-navbar-active-color: #fff;
 }
 
+.date-column {
+    white-space: nowrap;
+}
+
 /*
     =======================================
     LISTA LIBRI

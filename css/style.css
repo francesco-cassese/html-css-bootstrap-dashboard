@@ -127,6 +127,12 @@
     ===============================
 */
 
+.separation {
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+
 .notes-txt-area {
     min-height: 100px !important;
 }

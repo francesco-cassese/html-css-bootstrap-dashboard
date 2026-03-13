@@ -79,7 +79,7 @@
                 <div class="mb-3 col-12 col-md-6">
                     <label for="surnameAuthor" class="form-label fw-semibold">Cognome Autore</label>
                     <input type="text" class="form-control" id="surnameAuthor"
-                        placeholder="Inserisci il cognome dell'autore" aria-describedby="Cognome autore" required>
+                        placeholder="Inserisci il cognome dell'autore" aria-describedby="Cognome autore">
                 </div>
                 <!--
                     INPUT TITOLO LIBRO
@@ -97,7 +97,7 @@
                 -->
                 <div class="mb-3 col-12 col-md-4 mb-3">
                     <label for="selectGenre" class="form-label fw-semibold">Genere</label>
-                    <select class="form-select" id="selectGenre" aria-label="Seleziona il genere">
+                    <select class="form-select" id="selectGenre" aria-label="Seleziona il genere" required>
                         <option selected disabled>Scegli il genere</option>
                         <option value="fantasy">Fantasy</option>
                         <option value="thriller">Thriller</option>
@@ -128,10 +128,27 @@
                 <!--
                     TEXT AREA
                 -->
-                <div class="form-label">
+                <div class="form-label mb-3">
                     <label for="notes" class="fw-semibold">Note</label>
                     <textarea class="form-control" id="notes" placeholder="inserisci eventuali note sull'libro"
                         id="noteTextArea"></textarea>
+                </div>
+                <!--
+                    CECKBOX
+                -->
+                <div class="col-12 mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="digitalVersionAvaiable">
+                        <label class="form-check-label" for="digitalVersionAvaiable">
+                            Disponibile anche in digitale
+                        </label>
+                    </div>
+                </div>
+                <!--
+                    BOTTONE
+                -->
+                <div class="col-12 mb-3">
+                    <button class="btn btn-primary" type="submit">Aggiungi libro</button>
                 </div>
             </form>
         </section>

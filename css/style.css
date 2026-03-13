@@ -77,6 +77,35 @@
     vertical-align: middle;
 }
 
+/*
+    =========================
+    ACCORDION
+    =========================
+*/
+
+.accordion-button:not(.collapsed) {
+    background-color: #f8f9fa;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:active {
+    box-shadow: none;
+}
+
+/*
+    ===========================
+    CHECKBOX
+    ===========================
+*/
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
 @media screen and (min-width:992px) {
     .wrapper {
         display: flex;

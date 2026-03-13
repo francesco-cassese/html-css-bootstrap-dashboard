@@ -48,6 +48,10 @@
     white-space: nowrap;
 }
 
+.btn-add-book {
+    font-weight: bold;
+}
+
 /*
     =======================================
     LISTA LIBRI

@@ -137,7 +137,8 @@
     ===============================
 */
 
-.form-control input {
+.form-control,
+.form-select {
     transition: border 0.3s ease;
 }
 

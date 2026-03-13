@@ -95,8 +95,9 @@
                 <!--
                     SELECT GENERE    
                 -->
-                <div class="row col-12 col-md-4 mb-3">
-                    <select class="form-select" aria-label="Default select example">
+                <div class="mb-3 col-12 col-md-4 mb-3">
+                    <label for="selectGenre" class="form-label fw-semibold">Genere</label>
+                    <select class="form-select" id="selectGenre" aria-label="Seleziona il genere">
                         <option selected disabled>Scegli il genere</option>
                         <option value="fantasy">Fantasy</option>
                         <option value="thriller">Thriller</option>
@@ -123,6 +124,14 @@
                     <label for="isbnCode" class="form-label fw-semibold">ISBN#</label>
                     <input type="text" class="form-control" id="isbnCode" placeholder="Inserisci il codice ISBN#"
                         aria-describedby="Anno di pubblicazione">
+                </div>
+                <!--
+                    TEXT AREA
+                -->
+                <div class="form-label">
+                    <label for="notes" class="fw-semibold">Note</label>
+                    <textarea class="form-control" id="notes" placeholder="inserisci eventuali note sull'libro"
+                        id="noteTextArea"></textarea>
                 </div>
             </form>
         </section>

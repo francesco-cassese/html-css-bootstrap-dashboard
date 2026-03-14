@@ -71,7 +71,7 @@
                 <div class="mb-3 col-6">
                     <label for="nameAuthor" class="form-label fw-semibold">Nome Autore</label>
                     <input type="text" class="form-control" id="nameAuthor" placeholder="Inserisci il nome dell'autore"
-                        aria-describedby="Nome Autore" required>
+                        required>
                 </div>
                 <!--
                     INPUT COGNOME AUTORE
@@ -79,7 +79,7 @@
                 <div class="mb-3 col-6">
                     <label for="surnameAuthor" class="form-label fw-semibold">Cognome Autore</label>
                     <input type="text" class="form-control" id="surnameAuthor"
-                        placeholder="Inserisci il cognome dell'autore" aria-describedby="Cognome autore">
+                        placeholder="Inserisci il cognome dell'autore">
                 </div>
                 <!--
                     INPUT TITOLO LIBRO
@@ -87,9 +87,9 @@
                 <div class="mb-3 col-12">
                     <label for="titleBook" class="form-label fw-semibold">Titolo</label>
                     <input type="text" class="form-control" id="titleBook" placeholder="Inserisci il titolo del libro"
-                        aria-describedby="Titolo libro" required>
-                    <div id="titleHelp">
-                        <span class="txt-title-help form-text text-secondary">Titolo versione italiana</span>
+                        aria-describedby="titleHelp" required>
+                    <div id="titleHelp" class="form-text">
+                        <span class="txt-title-help">Titolo versione italiana</span>
                     </div>
                 </div>
                 <!--
@@ -98,7 +98,7 @@
                 <div class="mb-3 col-12 col-md-4 mb-3">
                     <label for="selectGenre" class="form-label fw-semibold">Genere</label>
                     <select class="form-select" id="selectGenre" aria-label="Seleziona il genere" required>
-                        <option selected disabled>Scegli il genere</option>
+                        <option value="" selected disabled>Scegli il genere</option>
                         <option value="fantasy">Fantasy</option>
                         <option value="thriller">Thriller</option>
                         <option value="giallo">Giallo</option>
@@ -114,25 +114,23 @@
                 -->
                 <div class="mb-3 col-12 col-md-4">
                     <label for="publicationDate" class="form-label fw-semibold">Anno di pubblicazione</label>
-                    <input type="date" class="form-control" id="pubblicationDate"
-                        aria-describedby="Inserisci l'anno di pubblicazione">
+                    <input type="date" class="form-control" id="publicationDate">
                 </div>
                 <!-- 
                     INPUT CODICE ISBN
                 -->
                 <div class="mb-3 col-12 col-md-4 mb-5">
                     <label for="isbnCode" class="form-label fw-semibold">ISBN#</label>
-                    <input type="text" class="form-control" id="isbnCode" placeholder="Inserisci il codice ISBN#"
-                        aria-describedby="Anno di pubblicazione">
+                    <input type="text" class="form-control" id="isbnCode" placeholder="Inserisci il codice ISBN">
                 </div>
                 <hr class="separator">
                 <!--
                     TEXT AREA
                 -->
                 <div class="form-label mt-3 mb-3 notes-contain pt-3">
-                    <label for="notes" class="fw-semibold">Note</label>
-                    <textarea class="form-control notes-txt-area" id="notes"
-                        placeholder="inserisci eventuali note sul libro" id="noteTextArea"></textarea>
+                    <label for="notesTextArea" class="fw-semibold">Note</label>
+                    <textarea class="form-control notes-txt-area" placeholder="inserisci eventuali note sul libro"
+                        id="notesTextArea"></textarea>
                 </div>
                 <!--
                     CHECKBOX

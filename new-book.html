@@ -122,7 +122,8 @@
                 -->
                 <div class="mb-3 col-12 col-md-4 mb-5">
                     <label for="isbnCode" class="form-label fw-semibold">ISBN#</label>
-                    <input type="text" class="form-control" id="isbnCode" placeholder="Inserisci il codice ISBN">
+                    <input required pattern="^([0-9]{10}|[0-9]{13})$" type="text" class="form-control" id="isbnCode"
+                        placeholder="Inserisci il codice ISBN">
                 </div>
                 <hr class="separator">
                 <!--
